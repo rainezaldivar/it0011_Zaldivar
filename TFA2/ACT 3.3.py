@@ -4,7 +4,7 @@ age = input("Enter your Age: ")
 num = input("Enter your Contact Number: ")
 course = input("What is your Course: ")
 
-persoinfo  =  f"Reading Students Info:\n Last Name: {lname}\nFirst Name: {fname}\nAge: {age}\nContact Number: {num}\nCourse: {course}\n"
+persoinfo  =  f"Reading Students Info: Last Name: {lname}\nFirst Name: {fname}\nAge: {age}\nContact Number: {num}\nCourse: {course}\n"
 
 with open("students.txt", "a") as file:
     file.write(persoinfo)
