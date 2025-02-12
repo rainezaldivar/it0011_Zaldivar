@@ -13,7 +13,7 @@ def convert_date(date_str):
         return
     
     if 1 <= int(day) <= 31:
-        day = str(int(day))
+        day = str(int(day))  
     else:
         print("Invalid day entered.")
         return
