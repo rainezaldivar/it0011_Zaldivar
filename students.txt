@@ -1,6 +1,0 @@
-Reading Students Info:
-Last Name: Zaldivar
-First Name: Raine
-Age: 20
-Contact Number: 09876543211
-Course: BSITWMA
